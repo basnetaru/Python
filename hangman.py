@@ -6,7 +6,7 @@ word_length = len(chosen_word)
 end_of_game = False
 lives = 6
 print(logo)
-print(f'Pssst, the solution is {chosen_word}.')
+#
 display = []
 for _ in range(word_length):
     display += "_"
@@ -32,3 +32,4 @@ while not end_of_game:
 
     from hangman_art import stages
     print(stages[lives])
+print(chosen_word)

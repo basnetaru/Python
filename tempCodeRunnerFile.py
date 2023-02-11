@@ -1,0 +1,1 @@
+print(f'Pssst, the solution is {chosen_word}.')

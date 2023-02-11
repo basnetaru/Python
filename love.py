@@ -14,7 +14,8 @@ e = combined_name.count("e")
 
 love = l+o+v+e
 
-love_score = str(love) + str(true)
+love_score = love + true
+# print(type(love_score))
 
 if (love_score < 10) or (love_score > 90):
     print(
